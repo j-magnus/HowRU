@@ -1,2 +1,2 @@
-# HowRU
-How Are You [Jack Magnus]?
+# how r u?
+u: Jack Magnus.
