@@ -1,0 +1,86 @@
+body {
+    font-family: monospace, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    margin: 4rem;
+}
+
+p {
+    display: inline;
+}
+
+.box-good {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.box-bad {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: red;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.key {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    float: left;
+}
+
+.key p {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.log {
+    margin: 145px 0;
+}
+
+.activity-log {
+    color: #6f6f72;
+    margin: 145px 0;
+    border-top: 1px dashed #6f6f72 ;
+}
+
+.log-entry:before {
+    content:"--";
+    display: block;
+    margin-bottom: 15px;
+}
+
+.log-entry {
+    padding-bottom: 15px;
+}
+
+.log-date {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.log-date p{
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.log-text {
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+}
